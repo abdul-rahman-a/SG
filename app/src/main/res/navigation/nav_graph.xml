@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/SampleFragment"
-        android:name="com.example.sg.SampleFragment"
+        android:name="com.example.sg.ui.UserFragment"
         tools:layout="@layout/image_upload_component">
     </fragment>
 </navigation>

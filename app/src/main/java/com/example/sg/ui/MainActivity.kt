@@ -1,4 +1,4 @@
-package com.example.sg
+package com.example.sg.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.example.sg.R
 import com.example.sg.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 

@@ -1,11 +1,9 @@
 package com.example.sg.di
 
-import android.content.Context
 import com.example.sg.data.ApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
@@ -14,7 +12,7 @@ import javax.inject.Singleton
 class NetworkModule {
     @Singleton
     @Provides
-    fun provideApiService(@ApplicationContext context: Context): ApiService {
-        return ApiService.create(context)
+    fun provideApiService(): ApiService {
+        return ApiService.create()
     }
 }
